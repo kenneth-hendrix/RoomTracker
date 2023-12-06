@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Status App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="status-area">
+        <p id="status-text">Loading status...</p>
+        <button id="status-button">Change Status</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<div id="rating-popup" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="document.getElementById('rating-popup').style.display='none'">&times;</span>
+        <h2>Rate Your Experience</h2>
+        <form>
+            <label>
+                <input type="radio" name="rating" value="1"> 1
+            </label>
+            <label>
+                <input type="radio" name="rating" value="2"> 2
+            </label>
+            <label>
+                <input type="radio" name="rating" value="3"> 3
+            </label>
+            <label>
+                <input type="radio" name="rating" value="4"> 4
+            </label>
+            <label>
+                <input type="radio" name="rating" value="5"> 5
+            </label>
+            <button type="button" id="submit-rating">Submit</button>
+        </form>
+    </div>
+</div>
+
