@@ -1,4 +1,4 @@
 # RoomTracker
-Sets the availability of the room. \n
-Runs with ```node server.js``` \n
-Ratings end point is ```/ratings```
+Sets the availability of the room.  
+Runs with ```node server.js```  
+Ratings end point is ```/ratings```  
